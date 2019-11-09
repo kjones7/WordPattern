@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class WordManagerTest extends TestCase
 {
-    public function testCount()
+    public function testGetWordCount()
     {
         $input = 'This is a test. A very good test.';
         $wordManager = new WordManager();
