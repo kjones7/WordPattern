@@ -6,7 +6,7 @@ class WordManager
     public function getWordCount(string $input) : array
     {
         // Only keep numbers and letters
-        $input = preg_replace('/[^a-z\d ]+/i', '', $input);
+        $input = preg_replace('/(?!asp.net)[^a-z\d ]+\/i', '', $input);
 
         // Make all lowercase
         $input = strtolower($input);
