@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="414f5e70-6ba3-4fd2-b8ae-012477df3ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Helpers/Helpers.php" afterDir="false" />
+    <list default="true" id="414f5e70-6ba3-4fd2-b8ae-012477df3ab1" name="Default Changelist" comment="Include `asp.net` in regex expression&#10;&#10;This will prevent it from being separated into `asp net`">
       <change afterPath="$PROJECT_DIR$/src/Service/Output/CSV.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/Output/Output.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tests/Service/Output/CSVTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Output/Output.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service/WordManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/WordManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/WordManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Service/WordManagerTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573171089836</updated>
       <workItem from="1573171092659" duration="6263000" />
-      <workItem from="1573181831813" duration="12347000" />
+      <workItem from="1573181831813" duration="13217000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1573171217474</created>
@@ -166,7 +163,28 @@
       <option name="project" value="LOCAL" />
       <updated>1573340139157</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".idea changes">
+      <created>1573404887648</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573404887648</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Remove `out` directory, so that php script can create it itself">
+      <created>1573405611169</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573405611169</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Include `asp.net` in regex expression&#10;&#10;This will prevent it from being separated into `asp net`">
+      <created>1573405707999</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573405707999</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,10 +206,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add tests for service to count word occurrences" />
-    <MESSAGE value=".idea changes" />
     <MESSAGE value="phpunit .idea changes" />
     <MESSAGE value="Rename test method to match the method being tested" />
     <MESSAGE value="Add `out` folder that will be used to store files created by application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add `out` folder that will be used to store files created by application" />
+    <MESSAGE value=".idea changes" />
+    <MESSAGE value="Remove `out` directory, so that php script can create it itself" />
+    <MESSAGE value="Include `asp.net` in regex expression&#10;&#10;This will prevent it from being separated into `asp net`" />
+    <option name="LAST_COMMIT_MESSAGE" value="Include `asp.net` in regex expression&#10;&#10;This will prevent it from being separated into `asp net`" />
   </component>
 </project>
