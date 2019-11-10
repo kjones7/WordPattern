@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="414f5e70-6ba3-4fd2-b8ae-012477df3ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helpers/Helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/Output/CSV.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Service/Output/CSVTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/WordManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/WordManagerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Output/Output.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/WordManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/WordManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/WordManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Service/WordManagerTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +62,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin/.phpunit/phpunit-7.5/phpunit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Service/Output" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,6 +72,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\WordPattern\tests\Service\Output" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\WordPattern\tests\Service" />
+      <recent name="C:\Projects\WordPattern\src\Service\Outputs" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,13 +94,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.CSVTest">
+    <configuration name="CSVTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Service\Output\CSVTest" file="$PROJECT_DIR$/tests/Service/Output/CSVTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/tests" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.CSVTest" />
         <item itemvalue="PHPUnit.tests" />
       </list>
     </recent_temporary>
@@ -100,12 +116,13 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="414f5e70-6ba3-4fd2-b8ae-012477df3ab1" name="Default Changelist" comment="" />
+      <changelist id="" name=".idea changes" comment="" />
       <created>1573171089836</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573171089836</updated>
       <workItem from="1573171092659" duration="6263000" />
-      <workItem from="1573181831813" duration="2729000" />
+      <workItem from="1573181831813" duration="12347000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1573171217474</created>
@@ -121,7 +138,35 @@
       <option name="project" value="LOCAL" />
       <updated>1573183215366</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".idea changes">
+      <created>1573340033940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573340033940</updated>
+    </task>
+    <task id="LOCAL-00004" summary="phpunit .idea changes">
+      <created>1573340060964</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573340060964</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rename test method to match the method being tested">
+      <created>1573340095076</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573340095076</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add `out` folder that will be used to store files created by application">
+      <created>1573340139157</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573340139157</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +188,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add tests for service to count word occurrences" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests for service to count word occurrences" />
+    <MESSAGE value=".idea changes" />
+    <MESSAGE value="phpunit .idea changes" />
+    <MESSAGE value="Rename test method to match the method being tested" />
+    <MESSAGE value="Add `out` folder that will be used to store files created by application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add `out` folder that will be used to store files created by application" />
   </component>
 </project>
